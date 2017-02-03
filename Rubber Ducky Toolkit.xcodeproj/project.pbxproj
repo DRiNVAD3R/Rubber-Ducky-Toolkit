@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167969C41E44E10900E7FA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167969C31E44E10900E7FA0A /* AppDelegate.swift */; };
+		167969C61E44E10900E7FA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167969C51E44E10900E7FA0A /* ViewController.swift */; };
+		167969C91E44E10900E7FA0A /* Rubber_Ducky_Toolkit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 167969C71E44E10900E7FA0A /* Rubber_Ducky_Toolkit.xcdatamodeld */; };
+		167969CB1E44E10900E7FA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167969CA1E44E10900E7FA0A /* Assets.xcassets */; };
+		167969CE1E44E10900E7FA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167969CC1E44E10900E7FA0A /* Main.storyboard */; };
+		167969D91E44E10900E7FA0A /* Rubber_Ducky_ToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167969D81E44E10900E7FA0A /* Rubber_Ducky_ToolkitTests.swift */; };
+		167969E41E44E10900E7FA0A /* Rubber_Ducky_ToolkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167969E31E44E10900E7FA0A /* Rubber_Ducky_ToolkitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167969D51E44E10900E7FA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167969B81E44E10900E7FA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167969BF1E44E10900E7FA0A;
+			remoteInfo = "Rubber Ducky Toolkit";
+		};
+		167969E01E44E10900E7FA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167969B81E44E10900E7FA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167969BF1E44E10900E7FA0A;
+			remoteInfo = "Rubber Ducky Toolkit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167969C01E44E10900E7FA0A /* Rubber Ducky Toolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rubber Ducky Toolkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167969C31E44E10900E7FA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		167969C51E44E10900E7FA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		167969C81E44E10900E7FA0A /* Rubber_Ducky_Toolkit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rubber_Ducky_Toolkit.xcdatamodel; sourceTree = "<group>"; };
+		167969CA1E44E10900E7FA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167969CD1E44E10900E7FA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		167969CF1E44E10900E7FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167969D41E44E10900E7FA0A /* Rubber Ducky ToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rubber Ducky ToolkitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167969D81E44E10900E7FA0A /* Rubber_Ducky_ToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rubber_Ducky_ToolkitTests.swift; sourceTree = "<group>"; };
+		167969DA1E44E10900E7FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167969DF1E44E10900E7FA0A /* Rubber Ducky ToolkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rubber Ducky ToolkitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167969E31E44E10900E7FA0A /* Rubber_Ducky_ToolkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rubber_Ducky_ToolkitUITests.swift; sourceTree = "<group>"; };
+		167969E51E44E10900E7FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167969BD1E44E10900E7FA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167969D11E44E10900E7FA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167969DC1E44E10900E7FA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167969B71E44E10900E7FA0A = {
+			isa = PBXGroup;
+			children = (
+				167969C21E44E10900E7FA0A /* Rubber Ducky Toolkit */,
+				167969D71E44E10900E7FA0A /* Rubber Ducky ToolkitTests */,
+				167969E21E44E10900E7FA0A /* Rubber Ducky ToolkitUITests */,
+				167969C11E44E10900E7FA0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		167969C11E44E10900E7FA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167969C01E44E10900E7FA0A /* Rubber Ducky Toolkit.app */,
+				167969D41E44E10900E7FA0A /* Rubber Ducky ToolkitTests.xctest */,
+				167969DF1E44E10900E7FA0A /* Rubber Ducky ToolkitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167969C21E44E10900E7FA0A /* Rubber Ducky Toolkit */ = {
+			isa = PBXGroup;
+			children = (
+				167969C31E44E10900E7FA0A /* AppDelegate.swift */,
+				167969C51E44E10900E7FA0A /* ViewController.swift */,
+				167969CA1E44E10900E7FA0A /* Assets.xcassets */,
+				167969CC1E44E10900E7FA0A /* Main.storyboard */,
+				167969CF1E44E10900E7FA0A /* Info.plist */,
+				167969C71E44E10900E7FA0A /* Rubber_Ducky_Toolkit.xcdatamodeld */,
+			);
+			path = "Rubber Ducky Toolkit";
+			sourceTree = "<group>";
+		};
+		167969D71E44E10900E7FA0A /* Rubber Ducky ToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				167969D81E44E10900E7FA0A /* Rubber_Ducky_ToolkitTests.swift */,
+				167969DA1E44E10900E7FA0A /* Info.plist */,
+			);
+			path = "Rubber Ducky ToolkitTests";
+			sourceTree = "<group>";
+		};
+		167969E21E44E10900E7FA0A /* Rubber Ducky ToolkitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				167969E31E44E10900E7FA0A /* Rubber_Ducky_ToolkitUITests.swift */,
+				167969E51E44E10900E7FA0A /* Info.plist */,
+			);
+			path = "Rubber Ducky ToolkitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167969BF1E44E10900E7FA0A /* Rubber Ducky Toolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167969E81E44E10900E7FA0A /* Build configuration list for PBXNativeTarget "Rubber Ducky Toolkit" */;
+			buildPhases = (
+				167969BC1E44E10900E7FA0A /* Sources */,
+				167969BD1E44E10900E7FA0A /* Frameworks */,
+				167969BE1E44E10900E7FA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rubber Ducky Toolkit";
+			productName = "Rubber Ducky Toolkit";
+			productReference = 167969C01E44E10900E7FA0A /* Rubber Ducky Toolkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167969D31E44E10900E7FA0A /* Rubber Ducky ToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167969EB1E44E10900E7FA0A /* Build configuration list for PBXNativeTarget "Rubber Ducky ToolkitTests" */;
+			buildPhases = (
+				167969D01E44E10900E7FA0A /* Sources */,
+				167969D11E44E10900E7FA0A /* Frameworks */,
+				167969D21E44E10900E7FA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167969D61E44E10900E7FA0A /* PBXTargetDependency */,
+			);
+			name = "Rubber Ducky ToolkitTests";
+			productName = "Rubber Ducky ToolkitTests";
+			productReference = 167969D41E44E10900E7FA0A /* Rubber Ducky ToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		167969DE1E44E10900E7FA0A /* Rubber Ducky ToolkitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167969EE1E44E10900E7FA0A /* Build configuration list for PBXNativeTarget "Rubber Ducky ToolkitUITests" */;
+			buildPhases = (
+				167969DB1E44E10900E7FA0A /* Sources */,
+				167969DC1E44E10900E7FA0A /* Frameworks */,
+				167969DD1E44E10900E7FA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167969E11E44E10900E7FA0A /* PBXTargetDependency */,
+			);
+			name = "Rubber Ducky ToolkitUITests";
+			productName = "Rubber Ducky ToolkitUITests";
+			productReference = 167969DF1E44E10900E7FA0A /* Rubber Ducky ToolkitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167969B81E44E10900E7FA0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "David Seyboth";
+				TargetAttributes = {
+					167969BF1E44E10900E7FA0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 62Q2P9724A;
+						ProvisioningStyle = Automatic;
+					};
+					167969D31E44E10900E7FA0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 62Q2P9724A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 167969BF1E44E10900E7FA0A;
+					};
+					167969DE1E44E10900E7FA0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 62Q2P9724A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 167969BF1E44E10900E7FA0A;
+					};
+				};
+			};
+			buildConfigurationList = 167969BB1E44E10900E7FA0A /* Build configuration list for PBXProject "Rubber Ducky Toolkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167969B71E44E10900E7FA0A;
+			productRefGroup = 167969C11E44E10900E7FA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				167969BF1E44E10900E7FA0A /* Rubber Ducky Toolkit */,
+				167969D31E44E10900E7FA0A /* Rubber Ducky ToolkitTests */,
+				167969DE1E44E10900E7FA0A /* Rubber Ducky ToolkitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167969BE1E44E10900E7FA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167969CB1E44E10900E7FA0A /* Assets.xcassets in Resources */,
+				167969CE1E44E10900E7FA0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167969D21E44E10900E7FA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167969DD1E44E10900E7FA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167969BC1E44E10900E7FA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167969C61E44E10900E7FA0A /* ViewController.swift in Sources */,
+				167969C41E44E10900E7FA0A /* AppDelegate.swift in Sources */,
+				167969C91E44E10900E7FA0A /* Rubber_Ducky_Toolkit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167969D01E44E10900E7FA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167969D91E44E10900E7FA0A /* Rubber_Ducky_ToolkitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167969DB1E44E10900E7FA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167969E41E44E10900E7FA0A /* Rubber_Ducky_ToolkitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167969D61E44E10900E7FA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167969BF1E44E10900E7FA0A /* Rubber Ducky Toolkit */;
+			targetProxy = 167969D51E44E10900E7FA0A /* PBXContainerItemProxy */;
+		};
+		167969E11E44E10900E7FA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167969BF1E44E10900E7FA0A /* Rubber Ducky Toolkit */;
+			targetProxy = 167969E01E44E10900E7FA0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		167969CC1E44E10900E7FA0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167969CD1E44E10900E7FA0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167969E61E44E10900E7FA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		167969E71E44E10900E7FA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		167969E91E44E10900E7FA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 62Q2P9724A;
+				INFOPLIST_FILE = "Rubber Ducky Toolkit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david-seyboth.Rubber-Ducky-Toolkit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		167969EA1E44E10900E7FA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 62Q2P9724A;
+				INFOPLIST_FILE = "Rubber Ducky Toolkit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david-seyboth.Rubber-Ducky-Toolkit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		167969EC1E44E10900E7FA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 62Q2P9724A;
+				INFOPLIST_FILE = "Rubber Ducky ToolkitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david-seyboth.Rubber-Ducky-ToolkitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rubber Ducky Toolkit.app/Contents/MacOS/Rubber Ducky Toolkit";
+			};
+			name = Debug;
+		};
+		167969ED1E44E10900E7FA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 62Q2P9724A;
+				INFOPLIST_FILE = "Rubber Ducky ToolkitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david-seyboth.Rubber-Ducky-ToolkitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rubber Ducky Toolkit.app/Contents/MacOS/Rubber Ducky Toolkit";
+			};
+			name = Release;
+		};
+		167969EF1E44E10900E7FA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 62Q2P9724A;
+				INFOPLIST_FILE = "Rubber Ducky ToolkitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david-seyboth.Rubber-Ducky-ToolkitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rubber Ducky Toolkit";
+			};
+			name = Debug;
+		};
+		167969F01E44E10900E7FA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 62Q2P9724A;
+				INFOPLIST_FILE = "Rubber Ducky ToolkitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david-seyboth.Rubber-Ducky-ToolkitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rubber Ducky Toolkit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167969BB1E44E10900E7FA0A /* Build configuration list for PBXProject "Rubber Ducky Toolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167969E61E44E10900E7FA0A /* Debug */,
+				167969E71E44E10900E7FA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167969E81E44E10900E7FA0A /* Build configuration list for PBXNativeTarget "Rubber Ducky Toolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167969E91E44E10900E7FA0A /* Debug */,
+				167969EA1E44E10900E7FA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		167969EB1E44E10900E7FA0A /* Build configuration list for PBXNativeTarget "Rubber Ducky ToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167969EC1E44E10900E7FA0A /* Debug */,
+				167969ED1E44E10900E7FA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		167969EE1E44E10900E7FA0A /* Build configuration list for PBXNativeTarget "Rubber Ducky ToolkitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167969EF1E44E10900E7FA0A /* Debug */,
+				167969F01E44E10900E7FA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		167969C71E44E10900E7FA0A /* Rubber_Ducky_Toolkit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				167969C81E44E10900E7FA0A /* Rubber_Ducky_Toolkit.xcdatamodel */,
+			);
+			currentVersion = 167969C81E44E10900E7FA0A /* Rubber_Ducky_Toolkit.xcdatamodel */;
+			path = Rubber_Ducky_Toolkit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 167969B81E44E10900E7FA0A /* Project object */;
+}
